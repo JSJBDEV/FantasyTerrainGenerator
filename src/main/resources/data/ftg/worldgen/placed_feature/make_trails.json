@@ -1,0 +1,8 @@
+{
+  "feature": "ftg:make_trails",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

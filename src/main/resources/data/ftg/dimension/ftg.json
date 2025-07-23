@@ -1,0 +1,248 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "atlas:atlas",
+    "aquifer": "ftg:atlas/map/aquifers",
+    "map_info": "ftg:ftg",
+    "biome_source": {
+      "type": "atlas:atlas",
+      "map_info": "ftg:ftg",
+      "biome_map": "ftg:atlas/map/biomes",
+      "default": "minecraft:the_void",
+      "biomes": [
+        {
+          "biome": "minecraft:mushroom_fields",
+          "color": 4615851
+        },
+        {
+          "biome": "ftg:trail",
+          "color": 16711680
+        },
+        {
+          "biome": "ftg:road",
+          "color": 15597823
+        },
+        {
+          "biome": "minecraft:desert",
+          "color": 16508831
+        },
+        {
+          "biome": "minecraft:windswept_hills",
+          "color": 11909255
+        },
+        {
+          "biome": "minecraft:savanna",
+          "color": 13815938
+        },
+        {
+          "biome": "minecraft:plains",
+          "color": 13162127
+        },
+        {
+          "biome": "minecraft:sparse_jungle",
+          "color": 11983197
+        },
+        {
+          "biome": "minecraft:forest",
+          "color": 2735190
+        },
+        {
+          "biome": "minecraft:jungle",
+          "color": 8244021
+        },
+        {
+          "biome": "minecraft:bamboo_jungle",
+          "color": 4234307
+        },
+        {
+          "biome": "minecraft:taiga",
+          "color": 4942642
+        },
+        {
+          "biome": "minecraft:snowy_plains",
+          "color": 9861195
+        },
+        {
+          "biome": "minecraft:frozen_peaks",
+          "color": 14018539
+        },
+        {
+          "biome": "minecraft:swamp",
+          "color": 758065
+        },
+        {
+          "biome": "minecraft:mangrove_swamp",
+          "color": 24425
+        },
+        {
+          "biome": "minecraft:river",
+          "color": 33023
+        },
+        {
+          "biome": "minecraft:ocean",
+          "color": 64511
+        },
+        {
+          "biome": "minecraft:frozen_ocean",
+          "color": 15266038
+        }
+
+      ],
+      "cave_biomes": [
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "atlas:empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              0.8
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:lush_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.8,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dripstone_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "atlas:empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.375
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1.1,
+              1.1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:deep_dark"
+        }
+      ],
+      "below_depth": 10
+    },
+    "settings": "atlas:default"
+  }
+}
+

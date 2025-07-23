@@ -1,0 +1,8 @@
+{
+  "feature": "ftg:pave_roads",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
